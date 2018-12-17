@@ -4,12 +4,6 @@ A Skateboarding Platformer / Shooter
 by Anthony DiBari
 """
 
-try:
-    import pygame_sdl2
-    pygame_sdl2.import_as_pygame()
-except ImportError:
-    pass
-
 import pygame
 from blocks import Bullet
 from levels import LevelOne
@@ -61,10 +55,10 @@ def main():
     pygame.display.set_caption("Poser Pummel - DSA Studios")
 
     # Load sounds
-    click_sound = pygame.mixer.Sound("./resources/gun.ogg")
-    song = pygame.mixer.Sound("./resources/song.ogg")
-    ollie = pygame.mixer.Sound("./resources/ollie.ogg")
-    hit = pygame.mixer.Sound("./resources/hit.ogg")
+    click_sound = pygame.mixer.Sound("./resources/snd/gun.ogg")
+    song = pygame.mixer.Sound("./resources/snd/song.ogg")
+    ollie = pygame.mixer.Sound("./resources/snd/ollie.ogg")
+    hit = pygame.mixer.Sound("./resources/snd/hit.ogg")
 
     # Create the player
     player = Player()

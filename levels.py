@@ -30,7 +30,7 @@ class Level(object):
         self.player = player
 
         # Background image
-        self.background = pygame.image.load("./resources/city-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/city-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
         self.rect = self.background.get_rect()
 
@@ -76,7 +76,7 @@ class LevelOne(Level):
         self.score_multiplier = 10
         self.level_complete_bonus = 200
         self.zone = "City"
-        self.background = pygame.image.load("./resources/city-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/city-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -143,7 +143,7 @@ class LevelTwo(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 300
         self.zone = "City"
-        self.background = pygame.image.load("./resources/city-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/city-bg.png").convert_alpha()
 
         # Array with width, height, x, and y of platform
         level = [[150, 40, 0, 720],
@@ -209,7 +209,7 @@ class LevelThree(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 300
         self.zone = "City"
-        self.background = pygame.image.load("./resources/city-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/city-bg.png").convert_alpha()
 
         # Array with width, height, x, and y of platform
         level = [[100, 60, 250, 740],
@@ -305,7 +305,7 @@ class LevelFour(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 300
         self.zone = "Swamp"
-        self.background = pygame.image.load("./resources/swamp-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/swamp-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -384,7 +384,7 @@ class LevelFive(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 400
         self.zone = "Swamp"
-        self.background = pygame.image.load("./resources/swamp-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/swamp-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -490,7 +490,7 @@ class LevelSix(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 400
         self.zone = "Swamp"
-        self.background = pygame.image.load("./resources/swamp-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/swamp-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -587,7 +587,7 @@ class LevelSeven(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 500
         self.zone = "Underwater"
-        self.background = pygame.image.load("./resources/atlantis-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/atlantis-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -693,7 +693,7 @@ class LevelEight(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 500
         self.zone = "Underwater"
-        self.background = pygame.image.load("./resources/atlantis-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/atlantis-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform
@@ -821,7 +821,7 @@ class LevelNine(Level):
         self.score_multiplier = 12
         self.level_complete_bonus = 600
         self.zone = "Underwater"
-        self.background = pygame.image.load("./resources/atlantis-bg.png").convert_alpha()
+        self.background = pygame.image.load("./resources/img/atlantis-bg.png").convert_alpha()
         self.background = pygame.transform.scale(self.background, (1000, 800))
 
         # Array with width, height, x, and y of platform

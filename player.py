@@ -26,25 +26,25 @@ class Player(pygame.sprite.Sprite):
         self.jump_img_left = []
 
         # Loading the basic images into the arrays
-        player_img = pygame.image.load("./resources/seq1-right.png").convert_alpha()
+        player_img = pygame.image.load("./resources/img/seq1-right.png").convert_alpha()
         player_img = pygame.transform.scale(player_img, (width, height))
         self.player_img_array.append(player_img)
 
-        player_img = pygame.image.load("./resources/seq1-left.png").convert_alpha()
+        player_img = pygame.image.load("./resources/img/seq1-left.png").convert_alpha()
         player_img = pygame.transform.scale(player_img, (width, height))
         self.player_img_array.append(player_img)
 
         # Loading right facing animated sprites into array
         for seqnum in range(2, 8):
             for i in range(6):
-                player_img = pygame.image.load("./resources/seq" + str(seqnum) + "-right.png").convert_alpha()
+                player_img = pygame.image.load("./resources/img/seq" + str(seqnum) + "-right.png").convert_alpha()
                 player_img = pygame.transform.scale(player_img, (width, height))
                 self.jump_img_right.append(player_img)
 
         # Left facing animated sprites
         for seqnum in range(2, 8):
             for i in range(6):
-                player_img = pygame.image.load("./resources/seq" + str(seqnum) + "-left.png").convert_alpha()
+                player_img = pygame.image.load("./resources/img/seq" + str(seqnum) + "-left.png").convert_alpha()
                 player_img = pygame.transform.scale(player_img, (width, height))
                 self.jump_img_left.append(player_img)
 

@@ -46,7 +46,7 @@ def main_menu(surface):
 
         alpha = fade_out(surface, SCREEN_WIDTH, SCREEN_HEIGHT, alpha)
 
-        background = pygame.image.load("./resources/menu_bg.png").convert_alpha()
+        background = pygame.image.load("./resources/img/menu_bg.png").convert_alpha()
         rect = background.get_rect()
         surface.fill(PURPLE)
         surface.blit(background, rect)
@@ -87,7 +87,7 @@ def main_menu(surface):
                     pygame.quit()
                     quit()
 
-            background = pygame.image.load("./resources/how-to.png").convert_alpha()
+            background = pygame.image.load("./resources/img/how-to.png").convert_alpha()
             rect = background.get_rect()
             surface.blit(background, rect)
 
@@ -134,7 +134,7 @@ def game_over(surface, score, levels_completed, num_killed, x, y):
                 pygame.quit()
                 quit()
 
-        background = pygame.image.load("./resources/menu_bg.png").convert_alpha()
+        background = pygame.image.load("./resources/img/menu_bg.png").convert_alpha()
         rect = background.get_rect()
         surface.fill(PURPLE)
         surface.blit(background, rect)

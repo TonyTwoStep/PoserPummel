@@ -66,11 +66,11 @@ def draw_timer(surface, seconds):
 def draw_level_title(surface, level_num, size, x, y, zone, seconds, num_lives):
     # Level Screen background
     if zone == "City":
-        background = pygame.image.load("./resources/city-level.png").convert_alpha()
+        background = pygame.image.load("./resources/img/city-level.png").convert_alpha()
     elif zone == "Swamp":
-        background = pygame.image.load("./resources/swamp-level.png").convert_alpha()
+        background = pygame.image.load("./resources/img/swamp-level.png").convert_alpha()
     elif zone == "Underwater":
-        background = pygame.image.load("./resources/atlantis-level.png").convert_alpha()
+        background = pygame.image.load("./resources/img/atlantis-level.png").convert_alpha()
     else:
         background = None
         surface.fill(BLUE)
@@ -112,7 +112,7 @@ def draw_level_title(surface, level_num, size, x, y, zone, seconds, num_lives):
     surface.blit(text_surface, text_rect)
 
     # Load life icon
-    life_img = pygame.image.load("./resources/life.png").convert_alpha()
+    life_img = pygame.image.load("./resources/img/life.png").convert_alpha()
     life_img_rect = life_img.get_rect()
     life_img_rect.y = y + 200
     life_img_rect.x = x
@@ -143,7 +143,7 @@ def draw_lives(surface, num_lives):
     surface.blit(text_surface, text_rect)
 
     # Load life icon
-    life_img = pygame.image.load("./resources/life.png").convert_alpha()
+    life_img = pygame.image.load("./resources/img/life.png").convert_alpha()
     life_img_rect = life_img.get_rect()
     life_img_rect.y = start_y
     life_img_rect.x = start_x

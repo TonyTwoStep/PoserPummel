@@ -24,23 +24,23 @@ class Platform(pygame.sprite.Sprite):
         # City skin
         if self.zone == "City":
             if width <= 150:
-                self.image = pygame.image.load("./resources/city-plat.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/city-plat.png").convert_alpha()
             else:
-                self.image = pygame.image.load("./resources/city-plat-long.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/city-plat-long.png").convert_alpha()
 
         # Swamp skin
         elif self.zone == "Swamp":
             if width <= 150:
-                self.image = pygame.image.load("./resources/swamp-plat.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/swamp-plat.png").convert_alpha()
             else:
-                self.image = pygame.image.load("./resources/swamp-plat-long.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/swamp-plat-long.png").convert_alpha()
 
         # Underwater skin
         elif self.zone == "Underwater":
             if width <= 150:
-                self.image = pygame.image.load("./resources/underwater-plat.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/underwater-plat.png").convert_alpha()
             else:
-                self.image = pygame.image.load("./resources/underwater-plat-long.png").convert_alpha()
+                self.image = pygame.image.load("./resources/img/underwater-plat-long.png").convert_alpha()
 
         self.image = pygame.transform.scale(self.image, (width, height))
         self.rect = self.image.get_rect()
@@ -113,11 +113,11 @@ class Wall(Platform):
 
         # City skin
         if self.zone == "City":
-            self.image = pygame.image.load("./resources/city-wall.png").convert_alpha()
+            self.image = pygame.image.load("./resources/img/city-wall.png").convert_alpha()
         elif self.zone == "Swamp":
-            self.image = pygame.image.load("./resources/swamp-wall.png").convert_alpha()
+            self.image = pygame.image.load("./resources/img/swamp-wall.png").convert_alpha()
         elif self.zone == "Underwater":
-            self.image = pygame.image.load("./resources/underwater-wall.png").convert_alpha()
+            self.image = pygame.image.load("./resources/img/underwater-wall.png").convert_alpha()
 
         self.image = pygame.transform.scale(self.image, (width, height))
 
@@ -155,10 +155,10 @@ class Target(pygame.sprite.Sprite):
         self.move_start = 0
         self.move_end = 0
 
-        target_img = pygame.image.load("./resources/initial.png").convert_alpha()
+        target_img = pygame.image.load("./resources/img/initial.png").convert_alpha()
         target_img = pygame.transform.scale(target_img, (self.width, self.height))
         self.target_states.append(target_img)
-        target_img = pygame.image.load("./resources/initial.png").convert_alpha()
+        target_img = pygame.image.load("./resources/img/initial.png").convert_alpha()
         target_img = pygame.transform.scale(target_img, (self.width, self.height))
         self.target_states.append(target_img)
 
@@ -201,10 +201,10 @@ class Cop(Target):
 
             self.target_states.clear()
 
-            target_img = pygame.image.load("./resources/cop.png").convert_alpha()
+            target_img = pygame.image.load("./resources/img/cop.png").convert_alpha()
             target_img = pygame.transform.scale(target_img, (self.width, self.height))
             self.target_states.append(target_img)
-            target_img = pygame.image.load("./resources/cop2.png").convert_alpha()
+            target_img = pygame.image.load("./resources/img/cop2.png").convert_alpha()
             target_img = pygame.transform.scale(target_img, (self.width, self.height))
             self.target_states.append(target_img)
 
@@ -218,7 +218,7 @@ class Pogomonkey(Target):
             self.target_states.clear()
             self.jump = False
 
-            target_img = pygame.image.load("./resources/pogomonkey.png").convert_alpha()
+            target_img = pygame.image.load("./resources/img/pogomonkey.png").convert_alpha()
             target_img = pygame.transform.scale(target_img, (self.width, self.height))
             self.target_states.append(target_img)
             self.target_states.append(target_img)
@@ -270,10 +270,10 @@ class Bikefish(Target):
             self.target_states.clear()
             self.width = 87
 
-            target_img = pygame.image.load("./resources/bikefish.png").convert_alpha()
+            target_img = pygame.image.load("./resources/img/bikefish.png").convert_alpha()
             target_img = pygame.transform.scale(target_img, (self.width, self.height))
             self.target_states.append(target_img)
-            target_img = pygame.image.load("./resources/bikefish2.png").convert_alpha()
+            target_img = pygame.image.load("./resources/img/bikefish2.png").convert_alpha()
             target_img = pygame.transform.scale(target_img, (self.width, self.height))
             self.target_states.append(target_img)
 

@@ -11,6 +11,9 @@ Basic Game Overview:
   - Each level has a specific number of enemies and seconds alloted to the player with increasing difficulty throughout.
   - There are three levels per each zone and each zone contains different enemies with their own unique skill and movesets.
   - The player has three lives and a life is lost if time runs out or the player collides with an enemy. 
+  
+## Screenshots
+![Pic Not Loaded](http://i68.tinypic.com/j73o94.png)
 
 ## Trailer/Demonstration Video!
 [![Video Not Uploaded Yet](https://img.youtube.com/vi/dVAmi1jmFcc/mqdefault.jpg)](https://www.youtube.com/watch?v=dVAmi1jmFcc)

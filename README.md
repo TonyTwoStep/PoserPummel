@@ -16,7 +16,7 @@ Basic Game Overview:
 ![Pic Not Loaded](http://i68.tinypic.com/j73o94.png)
 
 ## Trailer/Demonstration Video!
-[![Video Not Uploaded Yet](https://img.youtube.com/vi/dVAmi1jmFcc/mqdefault.jpg)](https://www.youtube.com/watch?v=dVAmi1jmFcc)
+[![Video Not Uploaded Yet](https://img.youtube.com/vi/7xQQgkH1NyI/mqdefault.jpg)](https://www.youtube.com/watch?v=7xQQgkH1NyI)
 
 ## Dependencies
 Poser Pummel only requires that the client computer have Python 2.7+ and Pygame installed to function properly.

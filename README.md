@@ -1,4 +1,4 @@
-# Poser Pummel
+# Poser Pummel :video_game: :snake:
 
 ![python](http://oi65.tinypic.com/2hocv4l.jpg) ![pygame](http://i67.tinypic.com/286mhy.jpg)
 

@@ -28,7 +28,8 @@ Poser Pummel only requires that the client computer have Python 2.7+ and Pygame 
 The project files themselves are all self contained and can be cloned or downloaded from this repository on any system with Python and Pygame installed.
 
 Alternatively Windows 64-bit users can the .msi installer which does not require Python nor Pygame be installed as portable versions of both are packaged within the installation directory. 
-* [Download the MSI Installer Here](http://www.mediafire.com/file/45yoge5d4wjtkuf/PoserPummel-1.0-amd64.msi/file)
+
+[Download the MSI Installer Here](http://www.mediafire.com/file/45yoge5d4wjtkuf/PoserPummel-1.0-amd64.msi/file)
 
 ### Media Resources
 All graphics (player/enemy sprites, platforms, start/game over screen, loading screens, etc) besides level wallpapers are original work and were created in Adobe Photoshop CC. The wallpapers were adapted from vecteezy images which is a free vector website.

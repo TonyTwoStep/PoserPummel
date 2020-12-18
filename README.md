@@ -1,8 +1,5 @@
-# Poser Pummel :video_game: :snake:
+# Poser Pummel :video_game: :snake: ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-![python](http://oi65.tinypic.com/2hocv4l.jpg) ![pygame](http://i67.tinypic.com/286mhy.jpg)
-
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 **Poser Pummel is a retro style 2D skateboarding platformer/shooter game created entirely in Python.**
 
@@ -14,9 +11,6 @@ Basic Game Overview:
 
 ## Trailer/Demonstration Video!
 [![Video Not Uploaded Yet](https://img.youtube.com/vi/7xQQgkH1NyI/mqdefault.jpg)](https://www.youtube.com/watch?v=7xQQgkH1NyI)
-
-## Screenshots
-![Pic Not Loaded](http://i68.tinypic.com/j73o94.png)
 
 ## Dependencies
 Poser Pummel only requires that the client computer have Python 2.7+ and Pygame installed to function properly.
